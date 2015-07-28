@@ -1,0 +1,16 @@
+<tabset>
+    <tab heading="Create" active="tab.active">
+        <form ng-submit="edit.save()">
+            <label>
+                Make a portfolio item!<br>
+                <input type="text" placeholder="Header" ng-model="edit.header"/><br>
+            </label>
+            <input type="text" placeholder="Meta text" ng-model="edit.body"/><br>
+            <input type="text" placeholder="image url" ng-model="edit.item"/>
+            <input type="submit" value="SUBMIT!"/>
+        </form>
+    </tab>
+    <tab heading="Edit">
+        <h2>Baka</h2>
+    </tab>
+</tabset>

@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "devDependencies": {
+    "express": "^4.13.1",
+    "body-parser": "^1.13.2",
+    "mongoose": "^4.0.8"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="portfolio">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="styles/main.css"/>
+    </head>
+    <body>
+        <div ui-view="application"></div>
+
+        <script src="libs/angular/angular.js"></script>
+        <script src="libs/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="libs/angular-foundation/mm-foundation.js"></script>
+        <script src="libs/angular-foundation/mm-foundation-tpls.js"></script>
+        <script src="config/config.js"></script>
+        <script src="modules/_application/application.route.js"></script>
+        <script src="modules/topbar/topbar.controller.js"></script>
+        <script src="modules/portfolio/portfolio.route.js"></script>
+        <script src="modules/portfolio/index/portfolio.controller.js"></script>
+        <script src="modules/portfolio/view/portfolio.controller.js"></script>
+        <script src="modules/about/about.controller.js"></script>
+        <script src="models/portfolio.factory.js"></script>
+        <script src="modules/portfolio/edit/edit.controller.js"></script>
+    </body>
+</html>

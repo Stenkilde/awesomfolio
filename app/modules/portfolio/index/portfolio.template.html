@@ -1,0 +1,25 @@
+<div class="portfolio-shuffle fluid-row">
+    <div class="small-3 columns">
+        <a href="#">Tesasdt</a>
+    </div>
+    <div class="small-3 columns">
+        <a href="#">Teasdst</a>
+    </div>
+    <div class="small-3 columns">
+        <a href="#">Tesasdt</a>
+    </div>
+    <div class="small-3 columns">
+        <a href="#">Tesasdt</a>
+    </div>
+</div>
+<div class="portfolio fluid-row">
+    <ul class="portfolio__list">
+        <li class="portfolio__list--item" ui-sref="application.portfolioview({id: portfolio._id})" ng-repeat="portfolio in portfolio.portfolios">
+            <img ng-src="{{portfolio.item || '../assets/img/fallback.png' }}" alt=""/>
+            <div class="data">
+                <h2 class="title">{{portfolio.body}}</h2>
+                <p class="meta">{{portfolio.header}}</p>
+            </div>
+        </li>
+    </ul>
+</div>
